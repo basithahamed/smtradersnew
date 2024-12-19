@@ -1,0 +1,152 @@
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.topleft
+{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    background-color: black;
+    color: white;
+}
+.dabba {
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.product-common
+{
+    background-color: #EBEBEB;
+    /* border: 2px solid; */
+    /* padding: 10px; */
+}
+#mtop
+{
+    margin-top: 10px;
+}
+
+
+.btnprnts
+{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btncls
+{
+    border: 2px solid;
+    border-radius: 12px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #1A1A1A;
+    color: white;
+}
+.btncls:hover{
+    color: #1A1A1A;
+    background-color:white;
+}
+.supplyleft
+{
+    background-color: #FBCA74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suppliersprnt
+{
+    padding: 40px;
+    margin-top: 100px;
+}
+.banner
+{
+    padding: 40px;
+}
+.callusbtn
+{
+    border: 2px solid;
+    border-radius: 12px;
+    font-size: 25px;
+    padding: 13px;
+    
+    color: white;
+    background-color: #323232;
+}
+.callusbtn:hover{
+    color: #1A1A1A;
+    background-color:transparent;
+}
+
+#mtop div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.slider
+{
+    overflow: hidden;
+}
+.img-margin-14{
+    margin-left: 14%
+}
+#anchor
+{
+    margin-left: 7%;
+    margin-bottom:9%;
+}
+#nail
+{
+    margin-left: 12%;
+}
+#sds
+{
+    margin-left: 9%;
+}
+#nickle
+{
+    margin-left: 10%;
+}
+.MagicScroll a{
+    display: none;
+}
+.MagicScroll img{
+    height: 200px;
+}
+@media only screen and (max-width: 1000px) {
+    .img-margin-14,#anchor, #nail,#sds,#nickle
+    {
+        margin: 0px;
+    }
+    
+    
+   
+}
+@media only screen and (max-width: 700px) {
+.topleft,.supplyleft{
+    /* height: 300px; */
+}
+
+.img-margin-14,#anchor, #nail,#sds,#nickle
+{
+    margin: 0px;
+}
+
+.dabba {
+    width: 100%;
+}
+.suppliersprnt
+{
+    padding: 0px;
+}
+.banner
+{
+    padding: 0px;
+}
+}
+
+
+

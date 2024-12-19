@@ -1,0 +1,46 @@
+.product-common
+{
+    width: 340px;
+    /* width: 100%; */
+    margin: auto;
+    
+    padding: 20px;
+    
+    text-align: center; 
+
+}
+
+
+.product-common img{
+    
+    border: 2px solid;
+    border-radius: 12px 12px 0px 0px;
+    border-bottom: 0px;
+}
+.bottombox
+{
+    background-color: #EBEBEB;  
+    border: 2px solid;
+    border-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+    width: 100%;
+}
+
+
+.dabba {
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    
+}
+@media only screen and (max-width: 700px) {
+    .product-common
+    {
+        
+        /* margin-left: 100px; */
+    }
+    
+    .dabba {
+        width: 100%;
+    }
+}

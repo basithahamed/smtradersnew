@@ -1,0 +1,22 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+.pp
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid slategray;
+}
+.product-div
+{
+    height: 350px;
+    width: 320px;
+    margin: auto;
+}
+.prodcut-img
+{
+    height: 100%;
+    width: 100%;
+    
+}

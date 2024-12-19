@@ -1,0 +1,28 @@
+
+
+
+.dabba {
+    width: 70%;
+    margin: auto;
+    padding-top: 5px;
+    
+}
+
+.mapright
+    {
+        height: 400px;
+        width: 550px;
+        /* border: 2px s2olid; */
+        /* width: 650px;    */
+    }
+@media only screen and (max-width: 700px) {
+
+    .mapright
+    {
+        height: 400px;
+        width: 650px;    
+    }
+    .dabba {
+        width: 100%;
+    }
+}
